@@ -4,6 +4,7 @@ const stockPage = () => {
   return (
     <div>
       <h1>This is stock page</h1>
+      hello
       <StockFooter />
     </div>
   );
