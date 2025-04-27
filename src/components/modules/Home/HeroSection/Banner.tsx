@@ -1,25 +1,26 @@
 import Image from "next/image";
-import groupImage from "../../../../assets/Group-1.png";
+import bannerImage from "../../../../app/assets/Home-Photo/HomeBanner.png";
+import TitleAndText from "@/components/shared/TitleAndText";
 
 const Banner = () => {
   return (
-    <div className="relative w-full h-full overflow-hidden">
-      <div className="w-full">
+    <div>
+      <div className="relative w-full h-screen overflow-hidden">
         <Image
-          src={groupImage}
-          alt="Logo"
-          layout="responsive"
-          width={1920}
-          height={1080}
-          className="w-full h-full scale-x-140 scale-y-120" // Only scale horizontally
+          src={bannerImage}
+          alt="Home Banner"
+          fill
+          className="object-cover scale-100 lg:scale-125 transition-all duration-700"
+          priority
         />
       </div>
 
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white">
-        <h1 className="text-6xl font-bold">Осуществи мечту:</h1>
-        <p className="mt-4 text-2xl">
-          изучай язык с учителем гидом и путешествуй
-        </p>
+      {/* Overlay Text */}
+      <div className="-mt-18 relative">
+        <TitleAndText
+          title="ОСУЩЕСТВИ МЕЧТУ:"
+          text=" изучай язык с учителем гидом и путешествуй"
+        />
       </div>
     </div>
   );
