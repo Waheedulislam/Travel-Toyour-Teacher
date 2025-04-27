@@ -4,7 +4,7 @@ import TitleAndText from "@/components/shared/TitleAndText";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="mb-14">
       <div className="relative w-full h-screen overflow-hidden">
         <Image
           src={bannerImage}
@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="-mt-18 relative">
         <TitleAndText
           title="ОСУЩЕСТВИ МЕЧТУ:"
-          text=" изучай язык с учителем гидом и путешествуй"
+          text="изучай язык с учителем гидом и путешествуй"
         />
       </div>
     </div>
