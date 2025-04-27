@@ -6,7 +6,7 @@ const TitleAndText = ({ title, text }: TTitleAndText) => {
   return (
     <div>
       <div className="  text-center px-4">
-        <h2 className="text-3xl md:text-6xl font-normal text-[#FF2D55] lg:mb-4 ">
+        <h2 className="text-3xl md:text-6xl font-normal text-[#FF2D55] lg:mb-4 uppercase">
           {title}
         </h2>
         <p className="text-xl lg:mx-28 mx-2  font-semibold md:text-3xl text-[#64D0FF]">
