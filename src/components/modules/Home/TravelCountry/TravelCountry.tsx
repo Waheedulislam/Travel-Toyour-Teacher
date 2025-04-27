@@ -1,0 +1,68 @@
+import { travelOffers } from "@/app/data/travelOffer";
+import Container from "@/components/shared/Container";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
+
+const TravelCountry = () => {
+  return (
+    <Container>
+      {/* section-1  */}
+      <div>
+        <div className="  text-center px-4">
+          <h2 className="text-3xl md:text-5xl  text-[#FF2D55] lg:mb-4 uppercase">
+            Путешествия на 2024 год
+          </h2>
+          <p className="text-xl lg:mx-28 mx-2  font-semibold md:text-3xl text-[#64D0FF]">
+            Примеры того, куда вы можете отправиться с учителем:
+          </p>
+        </div>
+      </div>
+      {/* section-2  */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6 mt-10">
+        {travelOffers.map((offer) => (
+          <Card
+            key={offer.id}
+            className="bg-[#FFD60A] rounded-2xl shadow-xl overflow-hidden"
+          >
+            <div className=" px-6 overflow-hidden">
+              <Image
+                src={offer.imageUrl}
+                alt={offer.title}
+                width={400}
+                height={250}
+                className="w-full object-cover  h-48 rounded-xl"
+              />
+            </div>
+            <CardContent className=" flex flex-col items-center">
+              <div className="bg-white  w-full rounded-md px-2 py-2 mb-4">
+                <h2 className="text-[#FF2D55]  text-lg text-center ">
+                  {offer.title}
+                </h2>
+              </div>
+              <p className="text-gray-700 font-normal  mt-2 text-left">
+                {offer.description}
+              </p>
+              <div className="mt-4 text-center">
+                <p className="line-through text-[#ACACAC] text-sm">
+                  от ${offer.oldPrice}
+                </p>
+                <p className="text-[#64D0FF] text-2xl font-bold">
+                  от ${offer.newPrice}
+                </p>
+                <p className="text-gray-600 text-lg mt-1">
+                  цена за {offer.duration}
+                </p>
+              </div>
+              <Button className="mt-4 bg-gradient-to-r from-orange-400 to-yellow-400 text-white rounded-full px-6">
+                ПОДРОБНЕЕ
+              </Button>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+    </Container>
+  );
+};
+
+export default TravelCountry;

@@ -24,6 +24,12 @@ const Countries = () => {
         <Asia />
         <Oceania />
       </div>
+      {/* section-3  */}
+      <p className="text-xl lg:mx-28 mx-2 text-center  font-semibold md:text-3xl text-[#64D0FF] lg:my-20 my-10">
+        Исследуйте мир вместе с опытными преподавателями и
+        путешественниками-единомышленниками и учитесь во время своего следующего
+        приключения.
+      </p>
     </Container>
   );
 };
