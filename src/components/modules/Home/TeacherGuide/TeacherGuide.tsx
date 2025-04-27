@@ -7,7 +7,7 @@ const TeacherGuide = () => {
   return (
     <Container>
       {/* section-1  */}
-      <div className="mt-10">
+      <div className="mt-10 p-6">
         <TitleAndText
           title="Учитель гид"
           text="Почему учитель может быть идеальным гидом?"
@@ -28,7 +28,7 @@ const TeacherGuide = () => {
       </div>
 
       {/* section-3  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  justify-center items-center p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  justify-center items-center ">
         {TeacherInfoCards.map((card, index) => (
           <InfoCard
             key={index}
