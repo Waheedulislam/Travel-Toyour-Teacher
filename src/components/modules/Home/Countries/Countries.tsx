@@ -11,14 +11,14 @@ const Countries = () => {
       {/* section-1  */}
       <div>
         <TitleAndText title="Страны" text="Куда вы можете отправиться:" />
-        <p className="text-xl my-8 text-center">
+        {/* <p className="text-xl my-8 text-center">
           Просто выберите страну в списке ниже - куда Вы собрались отправиться,
           и оставьте заявку у нашего консультанта
-        </p>
+        </p> */}
       </div>
 
       {/* section-2  */}
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center gap-8 p-8">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  mx-auto gap-8 p-8">
         <Europe />
         <LatinAmerica />
         <Asia />

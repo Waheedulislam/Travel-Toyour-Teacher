@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 
 const LatinAmerica = () => {
   return (
-    <div className="bg-yellow-400 rounded-xl p-6 w-72 h-96 flex flex-col items-center shadow-md ">
+    <div className="bg-yellow-400 rounded-xl p-6 w-full  h-96 flex flex-col items-center shadow-md ">
       {/* Region Title */}
       <div className="bg-white rounded-md px-4 py-2 mb-4">
-        <h2 className="text-pink-500 font-semibold text-lg text-center">
+        <h2 className="text-[#FF2D55] font-semibold text-lg text-center">
           Латинская Америка
         </h2>
       </div>

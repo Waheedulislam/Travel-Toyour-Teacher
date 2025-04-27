@@ -4,6 +4,8 @@ import LanguageTeacher from "@/components/modules/Home/LanguageTeacher/LanguageT
 import TeacherGuide from "@/components/modules/Home/TeacherGuide/TeacherGuide";
 import TravelCountry from "@/components/modules/Home/TravelCountry/TravelCountry";
 import TravelIdea from "@/components/modules/Home/TravelIdea/TravelIdea";
+import TravelingTeacher from "@/components/modules/Home/TravelingTeacher/TravelingTeacher";
+import WeCareAbout from "@/components/modules/Home/WeCareAbout/WeCareAbout";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <TravelIdea />
       <Countries />
       <TravelCountry />
+      <TravelingTeacher />
+      <WeCareAbout />
     </div>
   );
 }
