@@ -2,7 +2,10 @@ import { Button } from "@/components/ui/button";
 
 const Europe = () => {
   return (
-    <div className="bg-yellow-400 rounded-xl p-6 w-full flex  h-ful flex-col items-center shadow-md">
+    <div
+      data-aos="fade-right"
+      className="bg-yellow-400 rounded-xl p-6 w-full flex  h-ful flex-col items-center shadow-md"
+    >
       {/* Region Title */}
       <div className="bg-white rounded-md px-4 py-2 mb-4">
         <h2 className="text-[#FF2D55] font-semibold text-lg text-center">

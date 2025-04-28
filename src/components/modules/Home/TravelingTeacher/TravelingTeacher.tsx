@@ -18,6 +18,7 @@ const TravelingTeacher = () => {
       <div className="flex flex-col md:flex-row items-center gap-8 mt-6 p-6">
         <div className="w-full md:w-1/2">
           <Image
+            data-aos="fade-right"
             src="https://traveltoyourteacher.ru/wp-content/uploads/2024/11/photo_2024-11-05_02-36-51-e1730763587108-1024x537.jpg"
             alt="idea-logo"
             width={800} // ← increased width
@@ -26,7 +27,10 @@ const TravelingTeacher = () => {
           />
         </div>
 
-        <div className="w-full md:w-1/2 bg-[#FFD60A] p-4 lg:p-8 rounded-2xl">
+        <div
+          data-aos="fade-left"
+          className="w-full md:w-1/2 bg-[#FFD60A] p-4 lg:p-8 rounded-2xl"
+        >
           <p className="text-left font-normal text-[#474747]">
             Вы не могли бы желать более квалифицированного гида, с навыками
             общения, энергией для обучения и талантом оживлять места и события,

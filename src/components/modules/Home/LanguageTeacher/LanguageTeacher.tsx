@@ -9,10 +9,20 @@ const LanguageTeacher = () => {
       {/* section-1 */}
       <div className="mt-10">
         <div className="text-center px-4 mb-10">
-          <h1 className="text-3xl md:text-6xl font-normal text-[#FF2D55] lg:mb-4 uppercase">
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1600"
+            data-aos-anchor-placement="top-bottom"
+            className="text-3xl md:text-6xl font-normal text-[#FF2D55] lg:mb-4 uppercase"
+          >
             Учитель Языка в Путешествии
           </h1>
-          <p className="text-xl lg:mx-36 mx-2 mt-3 lg:mt-2 font-semibold md:text-3xl text-[#64D0FF]">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1700"
+            data-aos-anchor-placement="top-bottom"
+            className="text-xl lg:mx-36 mx-2 mt-3 lg:mt-2 font-semibold md:text-3xl text-[#64D0FF]"
+          >
             Вы едете в путешествие, а мы вам предоставляем гида учителя языка,
             который вам бы хотелось изучить.
           </p>
@@ -20,7 +30,12 @@ const LanguageTeacher = () => {
       </div>
 
       {/* section-2 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1400"
+        data-aos-anchor-placement="top-bottom"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6"
+      >
         {cards.map((card, index) => (
           <div
             key={index}

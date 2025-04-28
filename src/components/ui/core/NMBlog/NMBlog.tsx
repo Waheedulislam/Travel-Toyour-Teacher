@@ -7,7 +7,10 @@ import { blogData } from "@/app/data/blogData";
 const NMBlog = () => {
   return (
     <section className="container mx-auto px-4 py-12">
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div
+        data-aos="fade-up"
+        className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
+      >
         {blogData.map((item) => (
           <div
             key={item.id}

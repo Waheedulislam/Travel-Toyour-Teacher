@@ -18,6 +18,7 @@ const WeCareAbout = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 my-10 place-items-center p-6">
         {features.map((feature, index) => (
           <Card
+            data-aos="fade-up"
             key={index}
             className="bg-[#FFD60A] text-center text-[#474747] rounded-2xl p-12 w-full max-w-xs flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300"
           >

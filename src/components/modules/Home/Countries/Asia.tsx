@@ -3,7 +3,10 @@ import React from "react";
 
 const Asia = () => {
   return (
-    <div className="bg-yellow-400 justify-center  rounded-xl p-6 w-full h-80 flex flex-col items-center shadow-md ">
+    <div
+      data-aos="fade-up"
+      className="bg-yellow-400 justify-center  rounded-xl p-6 w-full h-80 flex flex-col items-center shadow-md "
+    >
       {/* Region Title */}
       <div className="bg-white rounded-md px-4 py-2 mb-4">
         <h2 className=" text-[#FF2D55] font-semibold text-lg text-center">

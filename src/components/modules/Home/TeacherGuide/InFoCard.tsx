@@ -15,7 +15,12 @@ export function InfoCard({
   altText,
 }: InfoCardProps) {
   return (
-    <Card className="bg-[#FFD60A] flex flex-col items-center justify-between py-6 px-3 gap-6 rounded-2xl shadow-md h-full mt-8">
+    <Card
+      data-aos="fade-up"
+      data-aos-duration="1400"
+      data-aos-anchor-placement="top-bottom"
+      className="bg-[#FFD60A] flex flex-col items-center justify-between py-6 px-3 gap-6 rounded-2xl shadow-md h-full mt-8"
+    >
       <div className="bg-white rounded-xl py-3 px-6 w-full">
         <h2 className="text-lg  text-red-500 text-center">{title}</h2>
       </div>

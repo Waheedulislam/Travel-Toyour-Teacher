@@ -10,10 +10,20 @@ const TravelCountry = () => {
       {/* section-1  */}
       <div>
         <div className="  text-center px-4">
-          <h2 className="text-3xl md:text-5xl  text-[#FF2D55] lg:mb-4 uppercase">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="1600"
+            data-aos-anchor-placement="top-bottom"
+            className="text-3xl md:text-5xl  text-[#FF2D55] lg:mb-4 uppercase"
+          >
             Путешествия на 2024 год
           </h2>
-          <p className="text-xl lg:mx-28 mx-2  font-semibold md:text-3xl text-[#64D0FF]">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1700"
+            data-aos-anchor-placement="top-bottom"
+            className="text-xl lg:mx-28 mx-2  font-semibold md:text-3xl text-[#64D0FF]"
+          >
             Примеры того, куда вы можете отправиться с учителем:
           </p>
         </div>
@@ -22,6 +32,7 @@ const TravelCountry = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6 mt-10">
         {travelOffers.map((offer) => (
           <Card
+            data-aos="fade-up"
             key={offer.id}
             className="bg-[#FFD60A] rounded-2xl shadow-xl overflow-hidden"
           >
