@@ -15,19 +15,20 @@ const WeCareAbout = () => {
         />
       </div>
       {/* section-2  */}
-      <div className="flex flex-wrap justify-center gap-6 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 my-10 place-items-center p-6">
         {features.map((feature, index) => (
           <Card
             key={index}
-            className="bg-[#FFD60A] text-center text-[#474747] rounded-2xl p-8 w-64 flex flex-col items-center justify-center shadow-lg hover:scale-105 transition-transform duration-300"
+            className="bg-[#FFD60A] text-center text-[#474747] rounded-2xl p-12 w-full max-w-xs flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300"
           >
-            <CardContent className="flex flex-col items-center justify-center">
-              <div className="text-white text-5xl mb-4">{feature.icon}</div>
-              <p className="text-lg font-medium">{feature.title}</p>
+            <CardContent>
+              <div className="text-white text-5xl mb-4 ">{feature.icon}</div>
+              <p className=" font-normal text-nowrap">{feature.title}</p>
             </CardContent>
           </Card>
         ))}
       </div>
+
       {/* section-3  */}
       <div className="text-center mt-10 lg:mt-20">
         <p className="text-xl lg:mx-28 mx-2  font-semibold md:text-3xl text-[#64D0FF]">

@@ -28,7 +28,7 @@ const TeacherGuide = () => {
       </div>
 
       {/* section-3  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  justify-center items-center ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  justify-center items-center p-6">
         {TeacherInfoCards.map((card, index) => (
           <InfoCard
             key={index}
