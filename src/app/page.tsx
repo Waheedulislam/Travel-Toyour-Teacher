@@ -1,3 +1,4 @@
+import Blog from "@/components/modules/Home/Blog/Blog";
 import Countries from "@/components/modules/Home/Countries/Countries";
 import Banner from "@/components/modules/Home/HeroSection/Banner";
 import LanguageTeacher from "@/components/modules/Home/LanguageTeacher/LanguageTeacher";
@@ -18,6 +19,7 @@ export default function Home() {
       <TravelCountry />
       <TravelingTeacher />
       <WeCareAbout />
+      <Blog />
     </div>
   );
 }
