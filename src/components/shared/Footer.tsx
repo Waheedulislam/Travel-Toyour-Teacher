@@ -5,6 +5,7 @@ import {
   FaSkype,
   FaEnvelope,
 } from "react-icons/fa";
+import { FormModal } from "../ui/FormModal/FormModal";
 
 const Footer = () => {
   return (
@@ -54,13 +55,15 @@ const Footer = () => {
       {/* Chat Button */}
 
       <div className="flex items-center justify-center ">
-        <Button
-          className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl px-14 py-4 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto"
-          size="lg"
-          variant="default"
-        >
-          ЧАТ С НАМИ
-        </Button>
+        <FormModal>
+          <Button
+            className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl px-14 py-4 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto"
+            size="lg"
+            variant="default"
+          >
+            ЧАТ С НАМИ
+          </Button>
+        </FormModal>
       </div>
     </div>
   );
