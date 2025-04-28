@@ -4,7 +4,8 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X } from "lucide-react"; // Lucide icons import
+import { Menu, X } from "lucide-react";
+import { FormModal } from "../ui/FormModal/FormModal";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,9 +46,11 @@ const Navbar = () => {
         <Link href="/contacts">Контакты</Link>
       </div>
       <div className="">
-        <Button className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-full px-5 py-2 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-sm lg:text-base">
-          Заказать обратный звонок
-        </Button>
+        <FormModal>
+          <Button className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-full px-5 py-2 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-sm lg:text-base">
+            Заказать обратный звонок
+          </Button>
+        </FormModal>
       </div>
       {/* Mobile Menu Dropdown */}
       {menuOpen && (
