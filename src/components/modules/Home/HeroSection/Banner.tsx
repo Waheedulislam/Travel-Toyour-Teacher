@@ -4,13 +4,13 @@ import TitleAndText from "@/components/shared/TitleAndText";
 
 const Banner = () => {
   return (
-    <div className="mb-14">
-      <div className="relative w-full h-screen overflow-hidden">
+    <div className="mb-14 lg:mt-20 mt-4">
+      <div className="relative w-full -mt-2 h-screen overflow-hidden">
         <Image
           src={bannerImage}
           alt="Home Banner"
           fill
-          className="object-cover scale-100 lg:scale-125 transition-all duration-700"
+          className="object-cover scale-100 lg:scale-120 transition-all duration-700"
           priority
         />
       </div>
