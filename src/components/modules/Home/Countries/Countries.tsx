@@ -9,7 +9,7 @@ const Countries = () => {
   return (
     <Container>
       {/* section-1  */}
-      <div>
+      <div id="countries">
         <TitleAndText title="Страны" text="Куда вы можете отправиться:" />
         {/* <p className="text-xl my-8 text-center">
           Просто выберите страну в списке ниже - куда Вы собрались отправиться,

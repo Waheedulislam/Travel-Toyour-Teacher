@@ -7,7 +7,7 @@ const TeacherGuide = () => {
   return (
     <Container>
       {/* section-1  */}
-      <div className="mt-10 p-6">
+      <div className="mt-10 p-6 " id="teacher-guide">
         <TitleAndText
           title="Учитель гид"
           text="Почему учитель может быть идеальным гидом?"

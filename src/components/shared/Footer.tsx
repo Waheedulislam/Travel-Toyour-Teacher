@@ -8,7 +8,10 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-[#FFD60A] py-12 flex flex-col items-center justify-center space-y-8 mt-20">
+    <div
+      id="contacts"
+      className="bg-[#FFD60A] py-12 flex flex-col items-center justify-center space-y-8 mt-20"
+    >
       {/* Title */}
       <h2 className="text-4xl  text-white">Контакты:</h2>
 
