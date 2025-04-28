@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { FormModal } from "@/components/ui/FormModal/FormModal";
 
 const LatinAmerica = () => {
   return (
@@ -36,9 +37,11 @@ const LatinAmerica = () => {
       </ul>
 
       {/* Contact Button */}
-      <Button className="bg-gradient-to-r from-red-500 to-yellow-400 text-white font-semibold rounded-full px-6  shadow-md hover:scale-105 transition-transform pb-2">
-        Связь с консультантом
-      </Button>
+      <FormModal>
+        <Button className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-full px-6  shadow-md hover:scale-105 transition-transform pb-2">
+          Связь с консультантом
+        </Button>
+      </FormModal>
     </div>
   );
 };

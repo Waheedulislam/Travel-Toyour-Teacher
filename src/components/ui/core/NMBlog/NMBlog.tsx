@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { blogData } from "@/app/data/blogData";
+import { FormModal } from "../../FormModal/FormModal";
 
 const NMBlog = () => {
   return (
@@ -28,9 +29,11 @@ const NMBlog = () => {
             <div className="flex flex-col flex-1 ">
               <p className=" text-xl font-normal mt-2 ">{item.description}</p>
               <div className=" text-center mt-4">
-                <Button className="bg-gradient-to-r from-orange-400 to-yellow-400 text-white hover:opacity-90">
-                  Читать далее
-                </Button>
+                <FormModal>
+                  <Button className="bg-gradient-to-r from-orange-400 to-yellow-400 text-white hover:opacity-90">
+                    Читать далее
+                  </Button>
+                </FormModal>
               </div>
             </div>
           </div>

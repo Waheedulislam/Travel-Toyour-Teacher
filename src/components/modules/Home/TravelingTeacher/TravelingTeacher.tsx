@@ -1,6 +1,7 @@
 import Container from "@/components/shared/Container";
 import TitleAndText from "@/components/shared/TitleAndText";
 import { Button } from "@/components/ui/button";
+import { FormModal } from "@/components/ui/FormModal/FormModal";
 import Image from "next/image";
 
 const TravelingTeacher = () => {
@@ -43,13 +44,15 @@ const TravelingTeacher = () => {
             «заминки».
           </p>
           <div className="flex items-center justify-center mt-10">
-            <Button
-              className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl px-14 py-4 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto"
-              size="lg"
-              variant="default"
-            >
-              Узнать подробнее
-            </Button>
+            <FormModal>
+              <Button
+                className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl px-14 py-4 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto"
+                size="lg"
+                variant="default"
+              >
+                Узнать подробнее
+              </Button>
+            </FormModal>
           </div>
         </div>
       </div>

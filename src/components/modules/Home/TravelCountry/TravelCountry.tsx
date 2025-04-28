@@ -2,6 +2,7 @@ import { travelOffers } from "@/app/data/travelOffer";
 import Container from "@/components/shared/Container";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { FormModal } from "@/components/ui/FormModal/FormModal";
 import Image from "next/image";
 
 const TravelCountry = () => {
@@ -65,9 +66,11 @@ const TravelCountry = () => {
                   цена за {offer.duration}
                 </p>
               </div>
-              <Button className="mt-4 bg-gradient-to-r from-orange-400 to-yellow-400 text-white rounded-full px-6">
-                ПОДРОБНЕЕ
-              </Button>
+              <FormModal>
+                <Button className="mt-4 bg-gradient-to-r from-orange-500 to-yellow-400 text-white rounded-full px-6 hover:scale-105 transition-transform">
+                  ПОДРОБНЕЕ
+                </Button>
+              </FormModal>
             </CardContent>
           </Card>
         ))}

@@ -113,12 +113,24 @@ const Navbar = () => {
           <Link href="/" onClick={() => setMenuOpen(false)}>
             Главная
           </Link>
-          <Link href="/teacher-guide" onClick={() => setMenuOpen(false)}>
+          <ScrollLink
+            to="teacher-guide"
+            className="cursor-pointer"
+            onClick={() => setMenuOpen(false)}
+            smooth={true}
+            duration={600}
+          >
             Учитель гид
-          </Link>
-          <Link href="/countries" onClick={() => setMenuOpen(false)}>
+          </ScrollLink>
+          <ScrollLink
+            to="countries"
+            className="cursor-pointer"
+            onClick={() => setMenuOpen(false)}
+            smooth={true}
+            duration={600}
+          >
             Страны
-          </Link>
+          </ScrollLink>
           <Link href="/blog" onClick={() => setMenuOpen(false)}>
             Блог
           </Link>
