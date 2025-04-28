@@ -18,7 +18,7 @@ const Footer = () => {
           href="https://wa.me/your-number"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-green-500 p-3 rounded-lg hover:scale-110 transition-transform duration-300"
+          className="bg-green-500 p-2 rounded-lg hover:scale-110 transition-transform duration-300"
         >
           <FaWhatsapp className="text-white text-2xl" />
         </a>
@@ -26,7 +26,7 @@ const Footer = () => {
           href="https://t.me/your-telegram"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-400 p-3 rounded-lg hover:scale-110 transition-transform duration-300"
+          className="bg-blue-400 p-2 rounded-lg hover:scale-110 transition-transform duration-300"
         >
           <FaTelegramPlane className="text-white text-2xl" />
         </a>
@@ -34,7 +34,7 @@ const Footer = () => {
           href="skype:your-skype?chat"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-sky-400 p-3 rounded-lg hover:scale-110 transition-transform duration-300"
+          className="bg-sky-400 p-2 rounded-lg hover:scale-110 transition-transform duration-300"
         >
           <FaSkype className="text-white text-2xl" />
         </a>
@@ -42,7 +42,7 @@ const Footer = () => {
           href="mailto:your-email@example.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-red-500 p-3 rounded-lg hover:scale-110 transition-transform duration-300"
+          className="bg-red-500 p-2 rounded-lg hover:scale-110 transition-transform duration-300"
         >
           <FaEnvelope className="text-white text-2xl" />
         </a>
