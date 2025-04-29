@@ -12,8 +12,8 @@ const WeCareAbout = () => {
       {/* section-1 */}
       <div className="mt-20">
         <TitleAndText
-          title="Мы заботимся о вас"
-          text="Комфорт и удобство в изучении языка:"
+          title="We care about you"
+          text="Comfort and convenience in learning the language:"
         />
       </div>
       {/* section-2  */}
@@ -35,8 +35,7 @@ const WeCareAbout = () => {
       {/* section-3  */}
       <div className="text-center mt-10 lg:mt-20">
         <p className="text-xl lg:mx-28 mx-2  font-semibold md:text-3xl text-[#64D0FF]">
-          Получайте специальные индивидуальные предложения для путешествий на
-          свою электронную почту!
+          Receive special personalized travel offers to your email!
         </p>
         <FormModal>
           <ContactButton
@@ -44,7 +43,7 @@ const WeCareAbout = () => {
             size="lg"
             className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl lg:px-10 mt-8 px-6  py-3   hover:opacity-100 mr-2 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
           >
-            Узнать подробнее
+            Submit an application
           </ContactButton>
         </FormModal>
       </div>

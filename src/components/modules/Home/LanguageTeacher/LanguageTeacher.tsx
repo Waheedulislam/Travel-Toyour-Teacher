@@ -15,7 +15,7 @@ const LanguageTeacher = () => {
             data-aos-anchor-placement="top-bottom"
             className="text-3xl md:text-6xl font-normal text-[#FF2D55] lg:mb-4 uppercase"
           >
-            Учитель Языка в Путешествии
+            Language Teacher on the Go
           </h1>
           <p
             data-aos="fade-up"
@@ -23,8 +23,8 @@ const LanguageTeacher = () => {
             data-aos-anchor-placement="top-bottom"
             className="text-xl lg:mx-36 mx-2 mt-3 lg:mt-2 font-semibold md:text-3xl text-[#64D0FF]"
           >
-            Вы едете в путешествие, а мы вам предоставляем гида учителя языка,
-            который вам бы хотелось изучить.
+            You go on a trip, and we provide you with a guide and teacher of the
+            language you would like to learn.
           </p>
         </div>
       </div>
@@ -66,16 +66,16 @@ const LanguageTeacher = () => {
 const cards = [
   {
     image: "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/58.jpg",
-    text: "Учителя обычно хорошо владеют местным языком, что позволяет им объяснять информацию и отвечать на вопросы учеников более точно и доступно.",
+    text: "Teachers usually have a good command of the local language, which allows them to explain information and answer students' questions more accurately and clearly.",
   },
   {
     image: teacherImage, // local image imported
-    text: "Учителя местные жители и знают интересные места и культурные особенности региона, что делает их гидами, способными предложить уникальные маршруты и экскурсии.",
+    text: "The teachers are locals and know the interesting places and cultural features of the region, which makes them guides who can offer unique routes and excursions.",
   },
   {
     image:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/adventure-travel-tourism-hike-people-concept-couple-forest_1157-43353.jpg",
-    text: "Учителя помогают ученикам активно участвовать в процессе обучения, что способствует лучшему усвоению материала и развитию навыков общения на местном языке.",
+    text: "Teachers help students to actively participate in the learning process, which contributes to better assimilation of the material and the development of communication skills in the local language.",
   },
 ];
 

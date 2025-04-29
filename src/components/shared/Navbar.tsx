@@ -69,7 +69,7 @@ const Navbar = () => {
       {/* Desktop menu (only visible in lg and above) */}
       <div className="hidden lg:flex  md:gap-x-2  lg:gap-x-18 font-normal text-black text-base lg:text-xl">
         <Link className="" href="/">
-          Главная
+          Home
         </Link>
         <button
           onClick={() =>
@@ -77,7 +77,7 @@ const Navbar = () => {
           }
           className="cursor-pointer  bg-transparent border-none text-black"
         >
-          Учитель гид
+          Teacher guid
         </button>
         <button
           onClick={() =>
@@ -85,19 +85,19 @@ const Navbar = () => {
           }
           className="cursor-pointer mr-4 bg-transparent border-none text-black"
         >
-          Страны
+          Countries
         </button>
         <Link className="" href="/blog">
-          Блог
+          Blog
         </Link>
         <Link className="" href="/stock">
-          Акции
+          Stock
         </Link>
         <button
           onClick={handleFooterScroll}
           className="cursor-pointer bg-transparent border-none text-black"
         >
-          Контакты
+          Contacts
         </button>
       </div>
 
@@ -109,7 +109,7 @@ const Navbar = () => {
             size={"lg"}
             className="bg-gradient-to-r uppercase from-orange-600 to-yellow-400 text-white font-normal rounded-lg px-4 lg:px-8 lg:py-6 py-4 text-sm hover:opacity-90 hover:scale-105 transition-all duration-300 border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.9)]"
           >
-            Заказать обратный звонок
+            Request A Call Back
           </ContactButton>
         </FormModal>
       </div>
@@ -125,7 +125,7 @@ const Navbar = () => {
             }}
             className={cn(baseClasses, activeLink === "home" && activeClasses)}
           >
-            Главная
+            Home
           </Link>
 
           <button
@@ -142,7 +142,7 @@ const Navbar = () => {
               activeLink === "teacher" && activeClasses
             )}
           >
-            Учитель гид
+            Teacher Guid
           </button>
 
           <button
@@ -156,7 +156,7 @@ const Navbar = () => {
               activeLink === "countries" && activeClasses
             )}
           >
-            Страны
+            Countries
           </button>
 
           <Link
@@ -167,7 +167,7 @@ const Navbar = () => {
             }}
             className={cn(baseClasses, activeLink === "blog" && activeClasses)}
           >
-            Блог
+            Blog
           </Link>
 
           <Link
@@ -178,7 +178,7 @@ const Navbar = () => {
             }}
             className={cn(baseClasses, activeLink === "stock" && activeClasses)}
           >
-            Акции
+            Stock
           </Link>
 
           <button
@@ -192,7 +192,7 @@ const Navbar = () => {
               activeLink === "contacts" && activeClasses
             )}
           >
-            Контакты
+            Contacts
           </button>
         </div>
       )}

@@ -18,8 +18,8 @@ const Banner = () => {
       {/* Overlay Text */}
       <div className="-mt-18 relative">
         <TitleAndText
-          title="ОСУЩЕСТВИ МЕЧТУ:"
-          text="изучай язык с учителем гидом и путешествуй"
+          title="Make your dream come true:"
+          text="learn language with teacher guide and travel"
         />
       </div>
     </div>

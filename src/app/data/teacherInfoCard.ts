@@ -1,24 +1,24 @@
 export const TeacherInfoCards = [
   {
-    title: "Знания и опыт:",
+    title: "Knowledge and experience:",
     description:
-      "Учителя часто имеют сильное образование и богатые знания. Это позволяет им давать глубокие знания об истории, культуре и значимости мест, по которым они ведут путешественников.",
+      "Teachers often have strong educational backgrounds and a wealth of knowledge, allowing them to provide deep insights into the history, culture, and significance of the places they guide travelers through.",
     imageUrl:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/145.jpg",
     altText: "Teacher guiding group in forest",
   },
   {
-    title: "Навыки общения:",
+    title: "Communication skills:",
     description:
-      "Учителя могут играть важную роль, помогая путешественникам узнать больше о местном регионе, включив в свои рекомендации образовательные и экспериментальные элементы.",
+      "Teachers can play an important role in helping travellers learn more about the local area by incorporating educational and experiential elements into their recommendations.",
     imageUrl:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/56.jpg",
     altText: "Group of young travelers reading map",
   },
   {
-    title: "Уроки культуры и истории:",
+    title: "Culture and history lessons:",
     description:
-      "Мы предоставляем ученикам краткие уроки о местной культуре, истории и обычаях, а так же информацию о важных достопримечательностях, исторических событиях и культурных практиках.",
+      "We provide students with short lessons on local culture, history and customs, as well as information on important landmarks, historical events and cultural practices.",
     imageUrl:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/85.jpg",
     altText: "Couple reading map in the city",

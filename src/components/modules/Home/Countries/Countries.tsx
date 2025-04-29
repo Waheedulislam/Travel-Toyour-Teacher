@@ -10,7 +10,13 @@ const Countries = () => {
     <Container>
       {/* section-1  */}
       <div id="countries">
-        <TitleAndText title="Страны" text="Куда вы можете отправиться:" />
+        <TitleAndText title="Countries" text="Where you can go:" />
+      </div>
+      <div>
+        <p className="text-center text-xl font-normal mt-2 mb-4 ">
+          Just select the country from the list below - where you are going to
+          go, and leave a request with our consultant
+        </p>
       </div>
 
       {/* section-2  */}
@@ -25,9 +31,8 @@ const Countries = () => {
         data-aos="zoom-in"
         className="text-xl lg:mx-36 mx-2 text-center  font-semibold md:text-3xl text-[#64D0FF] lg:my-20 my-10"
       >
-        Исследуйте мир вместе с опытными преподавателями и
-        путешественниками-единомышленниками и учитесь во время своего следующего
-        приключения.
+        Explore the world with experienced teachers and like-minded travelers
+        and learn during your next adventure.
       </p>
     </Container>
   );
