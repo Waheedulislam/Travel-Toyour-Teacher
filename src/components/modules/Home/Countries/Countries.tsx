@@ -14,7 +14,7 @@ const Countries = () => {
       </div>
 
       {/* section-2  */}
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  mx-auto gap-8 p-8">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  mx-auto gap-8 p-8 ">
         <Europe />
         <LatinAmerica />
         <Asia />

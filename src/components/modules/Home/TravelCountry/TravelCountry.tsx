@@ -1,7 +1,7 @@
 import { travelOffers } from "@/app/data/travelOffer";
 import Container from "@/components/shared/Container";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { ContactButton } from "@/components/ui/ContactButton";
 import { FormModal } from "@/components/ui/FormModal/FormModal";
 import Image from "next/image";
 
@@ -67,9 +67,13 @@ const TravelCountry = () => {
                 </p>
               </div>
               <FormModal>
-                <Button className="mt-4 bg-gradient-to-r from-orange-500 to-yellow-400 text-white rounded-full px-6 hover:scale-105 transition-transform">
+                <ContactButton
+                  variant="orange"
+                  size="lg"
+                  className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white  rounded-2xl my-3  mt-4 px-16    hover:opacity-100 mr-2  hover:scale-105 transition-all duration-300   border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+                >
                   ПОДРОБНЕЕ
-                </Button>
+                </ContactButton>
               </FormModal>
             </CardContent>
           </Card>

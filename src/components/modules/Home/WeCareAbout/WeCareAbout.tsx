@@ -1,8 +1,9 @@
+"use client";
 import { features } from "@/app/data/features";
 import Container from "@/components/shared/Container";
 import TitleAndText from "@/components/shared/TitleAndText";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { ContactButton } from "@/components/ui/ContactButton";
 import { FormModal } from "@/components/ui/FormModal/FormModal";
 
 const WeCareAbout = () => {
@@ -38,13 +39,13 @@ const WeCareAbout = () => {
           свою электронную почту!
         </p>
         <FormModal>
-          <Button
-            className="bg-gradient-to-r mt-8 from-orange-500 to-yellow-400 text-white lg:font-semibold font-normal rounded-xl lg:px-10 px-6  py-3 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto"
+          <ContactButton
+            variant="orange"
             size="lg"
-            variant="default"
+            className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl lg:px-10 mt-8 px-6  py-3   hover:opacity-100 mr-2 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
           >
             Узнать подробнее
-          </Button>
+          </ContactButton>
         </FormModal>
       </div>
     </Container>

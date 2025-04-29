@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { blogData } from "@/app/data/blogData";
 import { FormModal } from "../../FormModal/FormModal";
+import { ContactButton } from "../../ContactButton";
 
 const NMBlog = () => {
   return (
@@ -30,9 +30,13 @@ const NMBlog = () => {
               <p className=" text-xl font-normal mt-2 ">{item.description}</p>
               <div className=" text-center mt-4">
                 <FormModal>
-                  <Button className="bg-gradient-to-r from-orange-400 to-yellow-400 text-white hover:opacity-90">
+                  <ContactButton
+                    variant="orange"
+                    size="lg"
+                    className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-normal rounded-2xl  mt-8 px-4  py-2   hover:opacity-100 mr-2  mb-1 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+                  >
                     Читать далее
-                  </Button>
+                  </ContactButton>
                 </FormModal>
               </div>
             </div>

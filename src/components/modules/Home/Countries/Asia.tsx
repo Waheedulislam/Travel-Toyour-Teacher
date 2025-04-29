@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { ContactButton } from "@/components/ui/ContactButton";
 import { FormModal } from "@/components/ui/FormModal/FormModal";
 import React from "react";
 
@@ -34,9 +34,13 @@ const Asia = () => {
       {/* Contact Button */}
 
       <FormModal>
-        <Button className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-full px-6 py-2 shadow-md hover:scale-105 transition-transform">
+        <ContactButton
+          variant="orange"
+          size="lg"
+          className="bg-gradient-to-r uppercase from-orange-500 to-yellow-400 text-white  rounded-2xl my-3  mt-4 px-2 font-normal text-lg    hover:opacity-100 mr-2  hover:scale-105 transition-all duration-300   border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+        >
           Связь с консультантом
-        </Button>
+        </ContactButton>
       </FormModal>
     </div>
   );

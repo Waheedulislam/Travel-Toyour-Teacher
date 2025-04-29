@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { ContactButton } from "@/components/ui/ContactButton";
 import { FormModal } from "@/components/ui/FormModal/FormModal";
 
 const LatinAmerica = () => {
   return (
     <div
       data-aos="fade-down"
-      className="bg-yellow-400 rounded-xl p-6 w-full  h-96 flex flex-col items-center shadow-md "
+      className="bg-yellow-400 rounded-xl p-6 w-full  h-96  flex flex-col items-center shadow-md "
     >
       {/* Region Title */}
       <div className="bg-white rounded-md px-4 py-2 mb-4">
@@ -15,7 +15,7 @@ const LatinAmerica = () => {
       </div>
 
       {/* Country List */}
-      <ul className="flex-1 w-full flex flex-col items-center space-y-2 text-center mb-6">
+      <ul className="flex-1 w-full flex flex-col items-center space-t-2 text-center mb-6">
         <li className="text-gray-800 text-lg">
           <p>Колумбия</p>
         </li>
@@ -38,9 +38,13 @@ const LatinAmerica = () => {
 
       {/* Contact Button */}
       <FormModal>
-        <Button className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-full px-6  shadow-md hover:scale-105 transition-transform pb-2">
+        <ContactButton
+          variant="orange"
+          size="lg"
+          className="bg-gradient-to-r mt-4 uppercase from-orange-500 to-yellow-400 text-white  rounded-2xl my-3   px-2 font-normal text-lg    hover:opacity-100 mr-2  hover:scale-105 transition-all duration-300   border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+        >
           Связь с консультантом
-        </Button>
+        </ContactButton>
       </FormModal>
     </div>
   );
