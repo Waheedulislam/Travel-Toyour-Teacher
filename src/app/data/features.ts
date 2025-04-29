@@ -1,18 +1,18 @@
 export const features = [
   {
     icon: "🌍",
-    title: "Безопасность",
+    title: "Safety",
   },
   {
     icon: "🏨",
-    title: "Отели",
+    title: "Hotels",
   },
   {
     icon: "📖",
-    title: "Учителя на каникулах",
+    title: "Teachers on vacation",
   },
   {
     icon: "🍔",
-    title: "Завтраки",
+    title: "Breakfasts",
   },
 ];

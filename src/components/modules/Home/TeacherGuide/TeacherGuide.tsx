@@ -9,21 +9,21 @@ const TeacherGuide = () => {
       {/* section-1  */}
       <div className="mt-10 p-6 " id="teacher-guide">
         <TitleAndText
-          title="Учитель гид"
-          text="Почему учитель может быть идеальным гидом?"
+          title="Teacher guide"
+          text="Why can a teacher be an ideal guide?"
         />
       </div>
       {/* section-2  */}
       <div className="font-normal text-center">
         <p className="mb-2 mt-8 text-xl">
-          Вы едете в путешествие, а мы вам предлагаем гида учителя языка,
-          который вам бы хотелось изучить.
+          You are going on a trip, and we offer you a guide teacher of the
+          language you would like to learn.
         </p>
         <p className="mb-2 mt-4 text-xl">
-          Учитель может быть идеальным гидом по нескольким причинам, опираясь на
-          свое образование, коммуникативные навыки и способность содействовать
-          процессу обучения. Вот некоторые качества, которые делают учителя
-          подходящим для роли гида:
+          A teacher can be an ideal guide for several reasons, based on their
+          education, communication skills, and ability to facilitate learning.
+          Here are some qualities that make a teacher suitable for the role of
+          guide:
         </p>
       </div>
 

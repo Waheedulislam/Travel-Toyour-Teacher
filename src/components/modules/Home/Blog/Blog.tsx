@@ -7,8 +7,8 @@ const Blog = () => {
     <Container>
       <div className="mt-20 mb-10">
         <TitleAndText
-          title="ЧИТАЙТЕ БОЛЬШЕ В НАШЕМ БЛОГЕ"
-          text="Больше полезной информации о путешествиях"
+          title="READ MORE IN OUR BLOG"
+          text="More useful information about travel"
         />
         <NMBlog />
       </div>

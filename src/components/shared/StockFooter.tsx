@@ -10,7 +10,7 @@ const StockFooter = () => {
   return (
     <div className="bg-[#FFD60A] py-12 flex flex-col items-center justify-center space-y-8 mt-20">
       {/* Title */}
-      <h2 className="text-4xl  text-white">Контакты:</h2>
+      <h2 className="text-4xl  text-white">Contacts::</h2>
 
       <div className="flex flex-wrap gap-6 justify-center">
         <a
@@ -78,7 +78,7 @@ const StockFooter = () => {
             size="lg"
             variant="default"
           >
-            ЧАТ С НАМИ
+            Chat with us
           </Button>
         </FormModal>
       </div>

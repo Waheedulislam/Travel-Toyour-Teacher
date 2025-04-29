@@ -9,8 +9,8 @@ const TravelIdea = () => {
         {/* section-1 */}
         <div>
           <TitleAndText
-            title="Идея «Travel to Your Teacher»"
-            text="Основательница Ринета Сейт, учитель английского языка."
+            title="The idea of ​​'Travel to Your Teacher'"
+            text="Founder Rineta Seit, English teacher."
           />
         </div>
 
@@ -35,18 +35,16 @@ const TravelIdea = () => {
             className="w-full md:w-1/2 overflow-x-hidden"
           >
             <p className="text-left md:text-xl lg:font-normal">
-              Она создала платформу, где обучение и путешествие идут рука об
-              руку. Объединяя учителей со всего мира, включая даже таких
-              известных педагогов, как Мария Лопес из Колумбии и Дэвид Чен из
-              Китая, вместе с ней люди создали разнообразную сеть
-              энтузиастов-гидов. Наши учителя-гиды — рассказчики, которые
-              оживляют каждое место.
+              She has created a platform where learning and travel go hand in
+              hand. By bringing together teachers from all over the world,
+              including renowned educators like Maria Lopez from Colombia and
+              David Chen from China, she has created a diverse network of
+              enthusiastic guides. Our teacher guides are storytellers who bring
+              each place to life.
             </p>
             <p className="text-left lg:mt-12 mt-8 md:text-xl lg:font-normal">
-              Присоединяйтесь к нам для исследования всего того, что выходит за
-              рамки осмотра достопримечательностей и вместе с увлечёнными
-              педагогами откройте для себя радость обучения с «Travel to Your
-              Teacher».
+              Join us as we explore beyond the sights and discover the joy of
+              learning with passionate educators at Travel to Your Teacher.
             </p>
           </div>
         </div>

@@ -4,28 +4,28 @@ export const blogData = [
   {
     id: 1,
     description:
-      "В сотрудничестве с учеными специалисты инициативы Global Warming Travel to Your Teacher Care поддерживают разнообразные проекты по всему миру, оказывая положительное воздействие на окружающую среду во всем мире».",
+      "In collaboration with scientists, the Global Warming Travel to Your Teacher Care initiative supports various projects around the world, making a positive impact on the global environment.",
     imageUrl:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/women-01.jpg",
   },
   {
     id: 2,
     description:
-      "Путешествие мечты в Италию к вашему учителю. Исследуйте знаковые достопримечательности, погрузитесь в местную культуру и получите знания, которые вы не найдете ни в одном путеводителе.",
+      "A dream trip to Italy to visit your teacher. Explore iconic landmarks, immerse yourself in local culture, and gain knowledge you won't find in any guidebook.",
     imageUrl:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/960x0.jpg",
   },
   {
     id: 3,
     description:
-      "Мы предоставим вам все необходимое для тура «Путешествие к вашему учителю», чтобы вы могли расслабиться и наслаждаться каждым мгновением, ни о чем не беспокоясь!»",
+      "We provide everything you need for your 'Travel to Your Teacher' tour so you can relax and enjoy every moment without a worry!",
     imageUrl:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/young-group-tourists-suitcases-arriving-260nw-2282276407.webp",
   },
   {
     id: 4,
     description:
-      "Некоторые из наших преподавателей-гидов делятся своими мыслями и опытом.",
+      "Some of our teacher-guides share their thoughts and experiences.",
     imageUrl:
       "https://traveltoyourteacher.ru/wp-content/uploads/2024/11/resized-GettyImages-487435596-1024x684-1.jpg",
   },

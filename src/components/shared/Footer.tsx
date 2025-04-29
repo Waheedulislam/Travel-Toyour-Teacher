@@ -14,7 +14,7 @@ const Footer = () => {
       className="bg-[#FFD60A] py-12 flex flex-col items-center justify-center space-y-8 mt-20"
     >
       {/* Title */}
-      <h2 className="text-4xl  text-white">Контакты:</h2>
+      <h2 className="text-4xl  text-white">Contacts:</h2>
 
       {/* Icons */}
       <div className="flex gap-2">
@@ -62,7 +62,7 @@ const Footer = () => {
             className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl px-14 py-4   hover:opacity-100 mr-2 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
             onClick={() => console.log("Contact Button Clicked")}
           >
-            ЧАТ С НАМИ
+            Chat with us
           </ContactButton>
         </FormModal>
       </div>

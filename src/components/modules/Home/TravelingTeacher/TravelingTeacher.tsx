@@ -10,9 +10,9 @@ const TravelingTeacher = () => {
       {/* section-1 */}
       <div className="mt-20">
         <TitleAndText
-          title="Путешествие со своим учителем
+          title="Traveling with your teacher
 "
-          text="Учитель языка как гид:"
+          text="Language teacher as a guide:"
         />
       </div>
       {/* section-2 */}
@@ -32,16 +32,16 @@ const TravelingTeacher = () => {
           data-aos="fade-left"
           className="w-full md:w-1/2 bg-[#FFD60A] p-4 lg:p-8 rounded-2xl"
         >
-          <p className="text-left font-normal text-[#474747]">
-            Вы не могли бы желать более квалифицированного гида, с навыками
-            общения, энергией для обучения и талантом оживлять места и события,
-            чем пылкий учитель.
+          <p className="text-left text-xl font-normal text-[#474747]">
+            You couldn&apos;t ask for a more qualified guide, with the
+            communication skills, the energy to teach, and the talent to bring
+            places and events to life, than a passionate teacher.
           </p>
-          <p className="text-left mt-6 font-normal text-[#474747]">
-            И, с их другими профессиональными навыками организационного опыта,
-            способностью решать проблемы, а также адаптивностью, ваш гуру для
-            тура не будет потерян или взволнован, когда возникнут неожиданные
-            «заминки».
+          <p className="text-left text-xl mt-6 font-normal text-[#474747]">
+            And, with their other professional skills of organizational
+            experience, problem-solving ability, and adaptability, your tour
+            guru won&apos;t be lost or flustered when unexpected
+            &quot;hiccups&quot; arise.
           </p>
           <div className="flex items-center justify-center mt-10">
             <FormModal>
@@ -50,7 +50,7 @@ const TravelingTeacher = () => {
                 size="lg"
                 className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-normal rounded-2xl   px-14 py-4   hover:opacity-100 mr-2 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
               >
-                Узнать подробнее
+                Find out more
               </ContactButton>
             </FormModal>
           </div>

@@ -17,7 +17,7 @@ const TravelCountry = () => {
             data-aos-anchor-placement="top-bottom"
             className="text-3xl md:text-5xl  text-[#FF2D55] lg:mb-4 uppercase"
           >
-            Путешествия на 2024 год
+            Travel for 2024
           </h2>
           <p
             data-aos="fade-up"
@@ -25,7 +25,7 @@ const TravelCountry = () => {
             data-aos-anchor-placement="top-bottom"
             className="text-xl lg:mx-28 mx-2  font-semibold md:text-3xl text-[#64D0FF]"
           >
-            Примеры того, куда вы можете отправиться с учителем:
+            Examples of where you can go with a teacher:
           </p>
         </div>
       </div>
@@ -52,27 +52,27 @@ const TravelCountry = () => {
                   {offer.title}
                 </h2>
               </div>
-              <p className="text-gray-700 font-normal  mt-2 text-left">
+              <p className="text-gray-700 font-normal text-xl mt-2 text-left">
                 {offer.description}
               </p>
               <div className="mt-4 text-center">
                 <p className="line-through text-[#ACACAC] text-sm">
-                  от ${offer.oldPrice}
+                  form ${offer.oldPrice}
                 </p>
                 <p className="text-[#64D0FF] text-2xl font-bold">
-                  от ${offer.newPrice}
+                  form ${offer.newPrice}
                 </p>
                 <p className="text-gray-600 text-lg mt-1">
-                  цена за {offer.duration}
+                  price for {offer.duration}
                 </p>
               </div>
               <FormModal>
                 <ContactButton
                   variant="orange"
                   size="lg"
-                  className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white  rounded-2xl my-3  mt-4 px-16    hover:opacity-100 mr-2  hover:scale-105 transition-all duration-300   border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+                  className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white  rounded-2xl my-3  mt-4 px-16  font-normal  hover:opacity-100 mr-2  hover:scale-105 transition-all duration-300   border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
                 >
-                  ПОДРОБНЕЕ
+                  MORE DETAILS
                 </ContactButton>
               </FormModal>
             </CardContent>
