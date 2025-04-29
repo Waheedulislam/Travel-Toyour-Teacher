@@ -43,6 +43,7 @@ const WeCareAbout = () => {
             variant="orange"
             size="lg"
             className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl lg:px-10 mt-8 px-6  py-3   hover:opacity-100 mr-2 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+            onClick={() => console.log("Contact Button Clicked")}
           >
             Узнать подробнее
           </ContactButton>
