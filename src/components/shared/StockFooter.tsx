@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { Button } from "../ui/button";
 import whatsapp from "../../app/assets/Stock-Footer-Image/whatsapp.png";
 import email from "../../app/assets/Stock-Footer-Image/email.png";
 import skype from "../../app/assets/Stock-Footer-Image/skipe.png";
 import telegram from "../../app/assets/Stock-Footer-Image/telegram.png";
 import { FormModal } from "../ui/FormModal/FormModal";
+import { ContactButton } from "../ui/ContactButton";
 
 const StockFooter = () => {
   return (
@@ -73,13 +73,14 @@ const StockFooter = () => {
 
       <div className="flex items-center justify-center ">
         <FormModal>
-          <Button
-            className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl px-14 py-4 shadow-lg hover:shadow-xl hover:opacity-90 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto"
+          <ContactButton
+            variant="orange"
             size="lg"
-            variant="default"
+            className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-2xl px-14 py-4   hover:opacity-100 mr-2 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+            onClick={() => console.log("Contact Button Clicked")}
           >
             Chat with us
-          </Button>
+          </ContactButton>
         </FormModal>
       </div>
     </div>
