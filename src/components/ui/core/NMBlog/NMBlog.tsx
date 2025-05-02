@@ -33,7 +33,7 @@ const NMBlog = () => {
                   <ContactButton
                     variant="orange"
                     size="lg"
-                    className="bg-gradient-to-r uppercase from-orange-500 to-yellow-400 text-white font-normal rounded-2xl  mt-8 px-4  py-2   hover:opacity-100 mr-2  mb-1 hover:scale-105 transition-all duration-300 text-2xl h-auto w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
+                    className="bg-gradient-to-r uppercase from-orange-500 to-yellow-400 text-white font-normal rounded-lg   mt-8 px-4  py-2   hover:opacity-100 mr-2  mb-1 hover:scale-105 transition-all duration-300 text-lg  h-auto  w-auto border-none shadow-[4px_4px_0px_0px_rgba(255,140,0,0.7)]"
                   >
                     Read more
                   </ContactButton>
